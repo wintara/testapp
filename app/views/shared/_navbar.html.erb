@@ -1,0 +1,25 @@
+
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header navbar-custom">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Official Website Permen Jahe Dan Manisan Asem</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="<%= yield(:home) %>"> <%= link_to "Home", root_path %></li>
+        <li class="<%= yield(:produk) %>"> <%= link_to "Produk", halaman_produk_path %></li>
+        <li class="<%= yield(:pesan) %>"><%= link_to "Pesan", halaman_pesan_path %></li>
+       <li class="<%= yield(:alamat) %>"><%= link_to "Alamat", halaman_alamat_path %></li>
+      </ul>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
