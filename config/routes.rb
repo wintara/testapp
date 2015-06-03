@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'produk/jahe'
+
+  get 'produk/wijen'
+
+  get 'produk/asem'
+
+  get 'halaman/jahe'
+
   get 'halaman/home'
 
   get 'halaman/produk'
